@@ -90,3 +90,12 @@ When defining a unit we use the `Unit('kg')` function or from the clickable math
 ![image](https://user-images.githubusercontent.com/56993729/148029554-a447dabb-dbb3-4600-8f23-33564f57ac6c.png)
 
 If after you have been using some units still get the isse we discribed before you need to selecet SI from the right pane to make it convert the units
+
+## Tables
+
+In maple, when we need to display a lot of data we can use a table  
+![image](https://user-images.githubusercontent.com/56993729/148063647-c1b061b3-a94f-4894-af3c-f0cd30142ec0.png)
+
+Go to `insert` » `Table` at the top bar and you can choose the size of set table
+
+To expand the table after the creation of it right click the edges of it and you can insert new rows / colums
