@@ -7,6 +7,7 @@
     <li><a href="#installation">Installation Guide</a></li>
     <li><a href="#plots">Plots</a></li>
     <li><a href="#Units">Units in maple</a></li>
+    <li><a href="#Tables">Tables</a></li>
   </ol>
 </details>
 
