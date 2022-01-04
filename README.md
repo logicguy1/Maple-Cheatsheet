@@ -8,7 +8,7 @@
     <li><a href="#plots">Plots</a></li>
     <li><a href="#Units">Units in maple</a></li>
     <li><a href="#Tables">Tables</a></li>
-    <li><a href="##page-setup-in-maple">Page setup (headers and footers)</a></li>
+    <li><a href="#page-setup-in-maple">Page setup (headers and footers)</a></li>
   </ol>
 </details>
 
