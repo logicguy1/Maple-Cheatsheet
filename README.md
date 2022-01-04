@@ -8,6 +8,7 @@
     <li><a href="#plots">Plots</a></li>
     <li><a href="#Units">Units in maple</a></li>
     <li><a href="#Tables">Tables</a></li>
+    <li><a href="#"></a></li>
   </ol>
 </details>
 
@@ -85,18 +86,24 @@ Maple is able to work with units and with the conversion to SI, this is extremel
 Maple has as deafult limited knowlage of units (sometimes has a hard time converting) You want to use the units librarry, `with(Units):` *where the colon mutes the output*  
 
 An output without importing units will make it look something like this  
-![image](https://user-images.githubusercontent.com/56993729/147928159-c64a4829-4928-4a2a-8647-d078148858e2.png)
+<p align="center"><img src='https://user-images.githubusercontent.com/56993729/147928159-c64a4829-4928-4a2a-8647-d078148858e2.png'></p>
 
 When defining a unit we use the `Unit('kg')` function or from the clickable math window called units  
-![image](https://user-images.githubusercontent.com/56993729/148029554-a447dabb-dbb3-4600-8f23-33564f57ac6c.png)
+<p align="center"><img src='https://user-images.githubusercontent.com/56993729/148029554-a447dabb-dbb3-4600-8f23-33564f57ac6c.png'></p>
 
 If after you have been using some units still get the isse we discribed before you need to selecet SI from the right pane to make it convert the units
 
 ## Tables
 
 In maple, when we need to display a lot of data we can use a table  
-![image](https://user-images.githubusercontent.com/56993729/148063647-c1b061b3-a94f-4894-af3c-f0cd30142ec0.png)
+<p align="center"><img src='https://user-images.githubusercontent.com/56993729/148063647-c1b061b3-a94f-4894-af3c-f0cd30142ec0.png'></p>
 
 Go to `insert` » `Table` at the top bar and you can choose the size of set table
 
 To expand the table after the creation of it right click the edges of it and you can insert new rows / colums
+
+## Page setup in maple
+
+Page setup in maple is quite a nice thing, when we need to deliver an essay it is very eazy to simply press "export as pdf", this will mean that we are missing a few cursial components such as **headers** and **footers**
+
+To setup a header or a footer go to `insert` » `header footer` and you can set them up as you wish. I recommend using a footer such as `Page &[Page] of &[Pages]`
