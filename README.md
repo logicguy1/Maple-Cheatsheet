@@ -63,20 +63,46 @@ In maple the plot function takes well, a function and some settings arguments
 f(x) := 3x+4
 plot(f(x))
 ```
+<details closed="closed">
+  <summary><b>Show result</b></summary>
+  <p align="center"><img src='https://user-images.githubusercontent.com/56993729/148114180-3972c80e-1fbe-4a05-8302-f9bedf3cbb3c.png'></p>
+</details>  
+
+This is the most basic graph you can plot in maple  
 Now we can also include some arguments, here is a small list
 
 1. **Setting lables**  
    Here we use the labels and labeldirections to set lables, label directions tell you want direction each lable should go in, in order. 
    ```
    plot(f(x), labels = ["Årstal", "Antal personer"], labeldirections = [horizontal, vertical])
-   ```
+   ```  
+   <details closed="closed">
+     <summary><b>Show result</b></summary>
+     <p align="center"><img src='https://user-images.githubusercontent.com/56993729/148114326-c58c069b-ebb7-45f3-938e-4cc9f4149b66.png'></p>
+   </details>  
+  
 2. **Setting axis rages**  
    In maple we can also specify the range of each axis, we do this using the following
    ```
    plot(f(x), x=3.. 6)
-   ```
+   ```  
+   <details closed="closed">
+     <summary><b>Show result</b></summary>
+     <p align="center"><img src='https://user-images.githubusercontent.com/56993729/148114702-0611a4ef-0f5d-47a5-a80d-b8f330a4a238.png'></p>
+   </details>  
    This will make the x axis go from 3 to 6, you can do the same with the y axis, even at the same time
    
+3. **Gridlines**  
+    Maple does infact support gridlines, we want to click the plot we want to interact with then on the top there is a button to enable grid lines
+    
+    <p align="center"><img src='https://user-images.githubusercontent.com/56993729/148176392-c4cea77f-fcd0-4d40-9236-f6e9dd29a9a0.png'></p>
+
+    <details closed="closed">
+     <summary><b>Show result</b></summary>
+
+     <p align="center"><img src='https://user-images.githubusercontent.com/56993729/148176570-cad093f9-bf89-4835-acb2-bdd73532cc0b.png'></p>
+   </details>  
+
 All of these tricks and even be combined to one great plot
 
 ## Units
