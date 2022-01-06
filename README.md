@@ -6,6 +6,7 @@
   <ol>
     <li><a href="#installation">Installation Guide</a></li>
     <li><a href="#plots">Plots</a></li>
+      Axis ranges - Lables - Gridlines  
     <li><a href="#Units">Units in maple</a></li>
     <li><a href="#Tables">Tables</a></li>
     <li><a href="#page-setup-in-maple">Page setup (headers and footers)</a></li>
