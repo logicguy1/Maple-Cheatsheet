@@ -1,4 +1,4 @@
-# The maple cheatsheat
+# The maple cheat sheet
 
 ## About the project
 
