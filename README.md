@@ -1,12 +1,15 @@
 # The maple cheatsheat
 
+## About the project
+
+It all started when i needed to combine two plots, quite simple i thought, just a pointplot and a graph. But then! I saw the maple wiki and i started crying (i didnt) Then i told myself i would proper write some easy to navigate open source documentation that is avaliable to everyone :ooo
 
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#installation">Installation Guide</a></li>
     <li><a href="#plots">Plots</a></li>
-      Axis ranges - Lables - Gridlines  
+      Axis ranges - Lables - Gridlines - Axis arrows  
     <li><a href="#Units">Units in maple</a></li>
     <li><a href="#Tables">Tables</a></li>
     <li><a href="#page-setup-in-maple">Page setup (headers and footers)</a></li>
@@ -103,6 +106,29 @@ Now we can also include some arguments, here is a small list
 
      <p align="center"><img src='https://user-images.githubusercontent.com/56993729/148176570-cad093f9-bf89-4835-acb2-bdd73532cc0b.png'></p>
    </details>  
+
+4. **Axis arrows**  
+   Maple on its own does not have support for automatic axis arrows, this means that we have to construct them ourselves, i made a small example / script below and will describe it in more detail whats going on.
+   
+   ```
+   x__min := -10: x__max := 20: y__min := -40: y__max := 40:
+   graph := plot(f(x), x = x__min .. x__max, y = y__min .. x__max):
+   arrow__1 := plots:-arrow([0, y__max], [0, 0.01], shape = arrow, head_width = 25/y__max, head_length = 20/x__max):
+   arrow__2 := plots:-arrow([x__max, 0], [0.01, 0], shape = arrow, head_width = 25/x__max, head_length = 20/y__max):
+   plots:-display(graph, arrow__1, arrow__2)
+   ```
+    <details closed="closed">
+     <summary><b>Show result</b></summary>
+
+     <p align="center"><img src='https://user-images.githubusercontent.com/56993729/148609184-227df5e6-0428-47f9-893a-4996cc66cf9b.png'></p>
+   </details>  
+
+   Now this geneus code will create two arrows at the end of each of the axis (see the example by clicking expand)
+   
+   The first line you can edit the range variables to see the exact area you want to view, the arrows get calculated from those values  
+   Second line is the graph itself, you can change the `f(x)` part to what ever graph you want to display  
+   Line 3 and 4 is displaying the arrows, towards the end we have some divisions, you can change those to change the look feel and size of the arrows  
+   And lastly we just display the plot
 
 All of these tricks and even be combined to one great plot
 
