@@ -4,6 +4,8 @@
 
 It all started when i needed to combine two plots, quite simple i thought, just a pointplot and a graph. But then! I saw the maple wiki and i started crying (i didnt) Then i told myself i would proper write some easy to navigate open source documentation that is avaliable to everyone :ooo
 
+This also means it's completely a community driven project, any help in catching errors, explaing on already knowen knolage and comming up with new stuff is always great. You can simply create a Pull Request and i will review it 😄
+
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
