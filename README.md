@@ -15,6 +15,7 @@ This also means it's completely a community driven project, any help in catching
     <li><a href="#Units">Units in maple</a></li>
     <li><a href="#Tables">Tables</a></li>
     <li><a href="#page-setup-in-maple">Page setup (headers and footers)</a></li>
+    <li><a href="#tasks">Tasks (maple automation)</a></li>
   </ol>
 </details>
 
@@ -162,3 +163,23 @@ To expand the table after the creation of it right click the edges of it and you
 Page setup in maple is quite a nice thing, when we need to deliver an essay it is very eazy to simply press "export as pdf", this will mean that we are missing a few cursial components such as **headers** and **footers**
 
 To setup a header or a footer go to `insert` » `header footer` and you can set them up as you wish. I recommend using a footer such as `Page &[Page] of &[Pages]`
+
+## Tasks
+
+In maple we can setup tasks and make it automatically solve equations / remember formulaes
+
+### Creating tasks
+
+To create a task write the "code" you want to save into a task and highlight it
+
+Now we can select the text / "code" rightclick and press create task
+
+**Be carefull!** I have not currently found a way to remove tasks, but if you find da wae, feel free to open a pull request
+
+### Inserting a previus task
+
+After creating your first task a new palette will now appear named tasks, pressing any of the headlines will insert the "code" you previusly wrote
+
+This code can  include everything in a normal maple worksheet, so if you want to add explanations to each of the proceses you do / make, you can make your life eazy
+
+If used right, tasks can be a powerfull tool
